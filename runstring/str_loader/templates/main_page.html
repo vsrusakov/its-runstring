@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Главная страница</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=yes">
+    </head>
+    <body>
+        <h2>Сайт для создания видео с бегущей строкой</h2>
+        <div>
+            <p>
+                Для создания бегущей строки введите /runstring после корневого каталога.<br>
+                Можно передать необязательные параметры:
+            </p>
+            <ul>
+                <li>text - текст бегущей строки. По умолчанию "Hello, World!".</li>
+                <li>fps - число кадров в секунду. По умолчанию 24.</li>
+                <li>name - имя видеофайла. По умолчанию "my_video".</li>
+            </ul>
+            <p>Пример запроса: http://localhost:8000/getvideo?text=nice phrase!&fps=40</p>
+        </div>
+    </body>
+</html>
