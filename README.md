@@ -5,7 +5,8 @@ pip install -r requirements.txt
 ```
 Запустить сервер:
 ```shell
-python ./runstring/manage.py runserver
+cd its-runstring/runstring
+python manage.py runserver
 ```
 На главной странице приведены возможные параметры запроса.
 
